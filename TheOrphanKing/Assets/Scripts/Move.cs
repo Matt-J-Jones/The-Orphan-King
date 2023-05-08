@@ -14,18 +14,34 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if(Input.GetKey(KeyCode.W))
         {
             Animator.SetBool("Walk", true);
         } else {
             Animator.SetBool("Walk", false);
         }
 
-        // if (Input.GetKey(KeyCode.E))
-        // {
-        //     Animator.SetBool("Pickup", true);
-        // } else {
-        //     Animator.SetBool("Pickup", false);
-        // }
+        if (Input.GetKey(KeyCode.S))
+        {
+            Animator.SetBool("Back", true);
+        } else {
+            Animator.SetBool("Back", false);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            Animator.SetBool("Left", true);
+        } else {
+            Animator.SetBool("Left", false);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            Animator.SetBool("Right", true);
+        } else {
+            Animator.SetBool("Right", false);
+        }
+
+
     }
 }
