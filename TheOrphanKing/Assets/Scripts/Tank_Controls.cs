@@ -10,6 +10,7 @@ public class Tank_Controls : MonoBehaviour
      public float turnSpeed = 90f;
 
      public bool turning = false;
+     public bool cutscene = false;
  
      private void Start()
      {
@@ -18,7 +19,7 @@ public class Tank_Controls : MonoBehaviour
  
      private void Update()
      {
-        if (!turning)
+        if (!turning && !cutscene)
         {
             Vector3 movDir;
     
