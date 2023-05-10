@@ -2,15 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tracker : MonoBehaviour
+public class LevelTrigger : MonoBehaviour
 {
-     [Header("Zones:")]
-
-     [Header("Zone 1 & 2")]
-
-    public Zone Zone1And2Controller;
-    public bool OnOff;
-
+    // Start is called before the first frame update
     void Start()
     {
         
