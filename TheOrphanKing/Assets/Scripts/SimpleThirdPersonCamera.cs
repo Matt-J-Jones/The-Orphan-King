@@ -20,7 +20,6 @@ namespace TheFirstPerson.Helper
         public Vector3 lookOffset = Vector3.zero;
         public float lookSensitivity = 1;
         public float verticalLookLimit;
-        public float verticalLookLowerLimit;
         public bool mouseLookEnabled = true;
         public UpdateType positionUpdateType;
         public UpdateType lookUpdateType;
@@ -104,7 +103,6 @@ namespace TheFirstPerson.Helper
                     lookInput = lookInput * lookSensitivity;
                     horizontalLook += lookInput.x;
                     verticalLook -= lookInput.y;
-
                     if (verticalLook > verticalLookLimit && verticalLook < 180)
                     {
                         verticalLook = verticalLookLimit;
@@ -112,10 +110,6 @@ namespace TheFirstPerson.Helper
                     else if (verticalLook > 180 && verticalLook < 360 - verticalLookLimit)
                     {
                         verticalLook = 360 - verticalLookLimit;
-                    }
-                    else if (verticalLook < verticalLookLowerLimit)
-                    {
-                        verticalLook = verticalLookLowerLimit;
                     }
                     transform.localEulerAngles = new Vector3(verticalLook, horizontalLook, 0);
                 }

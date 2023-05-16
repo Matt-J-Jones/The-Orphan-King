@@ -6,9 +6,51 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 23c52443bfad38e48a95722be86cb439
+  - enabled: 1
     path: Assets/Scenes/Fire.unity
     guid: e39f6b33fedb0af43b0873f111b97261
   - enabled: 1
+    path: Assets/Scenes/Fire - Hope.unity
+    guid: 744393a4f03267c4aa4c9d4d34f95ce2
+  - enabled: 1
+    path: Assets/Scenes/Fire - Doubt.unity
+    guid: 5abb157a01c8c1348babe31782924a93
+  - enabled: 1
+    path: Assets/Scenes/Fire - Frustration-Camp.unity
+    guid: 9f05414af9d4864478b0af583755d639
+  - enabled: 1
+    path: Assets/Scenes/Fire - Frustration-Valley.unity
+    guid: 0d6990ca46cd8384a933fcaaa692ce57
+  - enabled: 1
+    path: Assets/Scenes/Fire - Regret.unity
+    guid: e9798e7da8f0a18439f658a6da087c08
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Main Z3.unity
+    guid: 471dfd82eded2914491ca9acba7872d3
+  - enabled: 1
+    path: Assets/Scenes/Main Z5.unity
+    guid: 01c5ecd16a2c2c442b666a5708b67a7f
+  - enabled: 1
+    path: Assets/Scenes/Main Z6-A.unity
+    guid: e67081bca3714e7479a8ad1d5cc24cc6
+  - enabled: 1
+    path: Assets/Scenes/Main Z6-B.unity
+    guid: 5d436a263c7d96442ad43173fb0756a2
+  - enabled: 1
+    path: Assets/Scenes/Main Z7.unity
+    guid: c36b6370ea0ff5445b2636a0b56d6fa3
+  - enabled: 1
+    path: Assets/Scenes/Staircase.unity
+    guid: c500e182a77d09941a9949880b0820f1
+  - enabled: 1
+    path: Assets/Scenes/Throne Room.unity
+    guid: 3406f03829b2d634286360c5353de578
+  - enabled: 1
+    path: Assets/Scenes/Fire - Ending.unity
+    guid: d77dfb97e30e18644ae3c457bdc21202
   m_configObjects: {}
