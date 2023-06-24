@@ -2,7 +2,7 @@
 
 ![image](2RhiU+.png)
 
-<i>"The Scholar had been camping at the edge of the desert for days, preparing for his journey to The Settlements. He had spent his time gathering supplies, checking his equipment, and studying maps of the surrounding area. The ruins of abandoned villages dotted the landscape, and he knew that he would need to navigate them carefully if he was going to make it to The Spire..."<i>
+<i>"The Scholar had been camping at the edge of the desert for days, preparing for his journey to The Settlements. He had spent his time gathering supplies, checking his equipment, and studying maps of the surrounding area. The ruins of abandoned villages dotted the landscape, and he knew that he would need to navigate them carefully if he was going to make it to The Spire..."</i>
 
 ![image](DhXF5e.png)
 
